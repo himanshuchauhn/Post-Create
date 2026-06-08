@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 async function connectDB() {
-    await mongoose.connect("mongodb+srv://completeback:2e58ysUGAzVgNRZF@complete-backend.qqkx1al.mongodb.net/ppost")
-//process.env.MONGO_URI
+    await mongoose.connect("process.env.MONGO_URI")
+//process.env.MONGO_URI it is the connection string of mongoDB
     
     console.log("Connected to DB");
     console.log("Host:", mongoose.connection.host);
