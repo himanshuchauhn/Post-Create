@@ -2,7 +2,7 @@ const  { ImageKit } = require("@imagekit/nodejs")
 
 const imagekit = new ImageKit({
     
-    privateKey: "private_uqsTURrNZn0kbozDZXb7hZOPzVM="
+    privateKey: "IMAGEKIT_PRIVATE_KEY"
   
 });
 
